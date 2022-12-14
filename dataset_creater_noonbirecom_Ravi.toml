@@ -1,10 +1,10 @@
 [[dags]]
-dag_id = 'dataset_creater_Ravi'
+dag_id = 'dataset_Ravi'
 schedule_interval = '@once'
 
 
 [[dataset]] 
-dag_id = 'dataset_creater_Ravi'
+dag_id = 'dataset_Ravi'
 task_id = 'Ravi_dataset'
 datasetlist = [
                 "Special_Datasets"
